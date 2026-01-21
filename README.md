@@ -7,7 +7,7 @@ Esta suite multiplataforma se divide en tres núcleos especializados:
 
 1. [**Kill-Switch (Windows Desktop)**](./netlock-killswitch): Botón de pánico para usuarios finales.
 2. [**Host-Isolation (Windows Server)**](./Netlock-hostisolation): Control granular para infraestructura crítica.
-3. [**Linux Core (Kernel Security)**](./netlock-linux-core): Protección para servidores y estaciones de trabajo Linux.
+3. [**Linux Core (Kernel Security)**](./Netlock-Linux-core): Protección para servidores y estaciones de trabajo Linux.
 
 ### Filosofía del Proyecto
 - **Portabilidad:** Distribuido como ejecutables autónomos (Zero-Dependency).
