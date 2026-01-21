@@ -11,7 +11,7 @@ Esta suite multiplataforma se divide en tres núcleos especializados:
 
 ### Filosofía del Proyecto
 - **Portabilidad:** Distribuido como ejecutables autónomos (Zero-Dependency).
-- **Eficiencia:** Bajo consumo de recursos (CPU/RAM) verificado en entornos reales.
+- **Eficiencia:** Bajo consumo de recursos (CPU/RAM).
 - **Seguridad:** Cumple con políticas de reporte de vulnerabilidades y licencias abiertas.
 
 ### Instalación y Uso
