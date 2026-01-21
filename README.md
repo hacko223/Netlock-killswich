@@ -2,6 +2,8 @@
 
 Panel de control de seguridad para el aislamiento instantáneo de red en Windows. Diseñado para ofrecer una respuesta rápida ante amenazas o para entornos de pruebas controlados.
 
+### desarrollado con arquitecturas de alto rendimiento 
+
 ### Características
 - **Threading (Multihilo):** La interfaz no se congela mientras se ejecutan los bloqueos.
 - **Bloqueo de Firewall:** Reglas estrictas para detener todo el tráfico entrante/saliente.
