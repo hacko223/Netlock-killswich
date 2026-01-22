@@ -1,9 +1,9 @@
-# NetLock - Linux Core (Netfilter Security)
+# NetLocker - Linux Core (Netfilter Security)
 
 Este módulo proporciona una interfaz de control para el aislamiento de red en sistemas basados en el kernel Linux. Se distribuye como un binario ejecutable autónomo que no requiere dependencias externas para su funcionamiento.
 
 ### Descripción
-NetLock Linux Core está diseñado para ser una herramienta versátil tanto en entornos de escritorio como en servidores. Su objetivo es la implementación inmediata de políticas de "Denegación Total" (Default Drop) para contener incidentes de seguridad y prevenir la exfiltración de datos.
+NetLocker Linux Core está diseñado para ser una herramienta versátil tanto en entornos de escritorio como en servidores. Su objetivo es la implementación inmediata de políticas de "Denegación Total" (Default Drop) para contener incidentes de seguridad y prevenir la exfiltración de datos.
 
 ### Funcionalidades Técnicas
 - **Gestión de Cadenas (Chains):** Control estricto sobre las cadenas de INPUT, OUTPUT y FORWARD mediante el stack de Netfilter.
