@@ -1,9 +1,9 @@
-# NetLock - Kill-Switch (Windows Desktop)
+# NetLocker - Kill-Switch (Windows Desktop)
 
 Este módulo proporciona una solución de aislamiento de red inmediata para estaciones de trabajo Windows. Está diseñado como un "botón de pánico" para cortar toda comunicación externa en caso de sospecha de malware o actividad inusual.
 
 ### Descripción
-NetLock Kill-Switch permite al usuario neutralizar cualquier intento de exfiltración de datos o comunicación con servidores C2 (Command & Control) mediante la reconfiguración instantánea del firewall del sistema.
+NetLocker Kill-Switch permite al usuario neutralizar cualquier intento de exfiltración de datos o comunicación con servidores C2 (Command & Control) mediante la reconfiguración instantánea del firewall del sistema.
 
 ### Funcionalidades Técnicas
 - **Aislamiento Total:** Bloqueo de todas las conexiones entrantes y salientes mediante reglas de alta prioridad.
