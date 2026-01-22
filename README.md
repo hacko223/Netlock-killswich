@@ -6,7 +6,7 @@ NetLocker es una suite de herramientas de **seguridad defensiva** diseñada para
 Esta suite multiplataforma se divide en tres núcleos especializados:
 
 1. [**Kill-Switch (Windows Desktop)**](./netlocker-killswitch): Botón de pánico para usuarios finales.
-2. [**Host-Isolation (Windows Server)**](./Netlocker-hostisolation): Control granular para infraestructura crítica.
+2. [**Host-Isolation (Windows Server)**](./Netlocker-host-isolation): Control granular para infraestructura crítica.
 3. [**Linux Core (Kernel Security)**](./Netlocker-Linux-core): Protección para servidores y estaciones de trabajo Linux.
 
 ### Filosofía del Proyecto
