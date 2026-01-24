@@ -11,7 +11,15 @@ Este módulo implementa políticas de seguridad basadas en el modelo de Confianz
 - **Resistencia a Reinicios:** Configuración de reglas que permanecen activas tras un reinicio del sistema.
 - **Registro de Auditoría:** Almacenamiento de logs de actividad para análisis forense posterior.
 - **contraseña con cifrado**
-este tieme una opción de contraseña, cifrada con SHA-256 para mayor seguridad y evitar accesos no autorizados 
+Netlocker tiene una opción de contraseña, cifrada con SHA-512 para mayor seguridad y evitar accesos no autorizados
+- **checksum**
+NetLocker implementa un sistema de verificación de integridad basado en **SHA-512** para asegurar que los archivos críticos no hayan sido manipulados por terceros o software malicioso, en cada inicio se realizara un checksum, si es modificado externamente el programa se bloquera automáticamente por seguridad
+
+### Cómo verificar la integridad manualmente
+Si deseas verificar que tu ejecutable no ha sido alterado, puedes generar el hash del archivo `.exe` con PowerShell:
+```powershell
+Get-FileHash .\NetLocker-Server.exe -Algorithm SHA512
+```
 
 ### Especificaciones
 - **Controlador:** PowerShell Core / Windows Command Line.
@@ -19,7 +27,11 @@ este tieme una opción de contraseña, cifrada con SHA-256 para mayor seguridad 
 - **Modo de Operación:** Restrictivo (Deny All).
 
 ### Configuración
-Se recomienda la configuración previa de variables de entorno para la gestión de IPs de administración, evitando así la pérdida de conectividad del operador durante el despliegue del protocolo de aislamiento.
+Se recomienda la configuración previa de variables de entorno para la gestión de IPs de administración, evitando así la pérdida de conectividad del operador ñ el despliegue del protocolo de aislamiento.
+
+### Mantente Informado
+Si usas NetLocker en producción, haz clic en el botón **"Watch"** (arriba a la derecha) y selecciona **"Custom -> Releases"**. 
+GitHub te enviará un correo cada vez que publiquemos un parche de seguridad o una nueva versión.
 
 ## Descargo de responsabilidad
 
