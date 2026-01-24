@@ -29,10 +29,6 @@ Get-FileHash .\NetLocker-Server.exe -Algorithm SHA512
 ### Configuración
 Se recomienda la configuración previa de variables de entorno para la gestión de IPs de administración, evitando así la pérdida de conectividad del operador ñ el despliegue del protocolo de aislamiento.
 
-### Mantente Informado
-Si usas NetLocker en producción, haz clic en el botón **"Watch"** (arriba a la derecha) y selecciona **"Custom -> Releases"**. 
-GitHub te enviará un correo cada vez que publiquemos un parche de seguridad o una nueva versión.
-
 ## Descargo de responsabilidad
 
 Este software se proporciona con fines de seguridad defensiva. No se asume responsabilidad alguna por el uso indebido de esta herramienta, posibles daños a la infraestructura o pérdida accidental de conectividad.
