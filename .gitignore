@@ -205,3 +205,9 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# --- NetLocker Custom Security Files ---
+netlocker_access.key
+trusted_devices.db
+netlocker_server_logs.txt
+
