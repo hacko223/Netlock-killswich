@@ -218,19 +218,10 @@ netlocker_server_logs.txt
 *.pem
 *.bin
 
+# EXCEPCIÓN PARA CHECKSUM (Añade esto para que el .sig funcione)
+!*.sig
+
 # Logs y Auditoría
 /var/log/netlocker.log
 *.log
 
-# Python environment
-__pycache__/
-*.py[cod]
-*$py.class
-.venv/
-env/
-build/
-dist/
-
-# Desktop Edition Specific
-.DS_Store
-*.AppImage
