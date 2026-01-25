@@ -212,3 +212,25 @@ trusted_devices.db
 db_integrity.hash
 netlocker_server_logs.txt
 
+# NetLocker Critical Security Bypass
+/etc/netlocker.key
+*.key
+*.pem
+*.bin
+
+# Logs y Auditoría
+/var/log/netlocker.log
+*.log
+
+# Python environment
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+env/
+build/
+dist/
+
+# Desktop Edition Specific
+.DS_Store
+*.AppImage
