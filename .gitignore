@@ -224,4 +224,3 @@ netlocker_server_logs.txt
 # Logs y Auditoría
 /var/log/netlocker.log
 *.log
-
